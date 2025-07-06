@@ -1,0 +1,46 @@
+pregunta,opcion1,opcion2,opcion3,opcion4,correcta,porcentaje_aciertos,cantidad_aciertos,cantidad_fallos,cantidad_preguntada
+¿Quién pintó la Mona Lisa?,Pablo Picasso,Leonardo da Vinci,Vincent van Gogh,Salvador Dalí,Leonardo da Vinci,0,0,0,0
+¿Cuál es el río más largo del mundo?,Amazonas,Nilo,Yangtsé,Mississippi,Amazonas,0,0,0,0
+¿Qué es la Torre Eiffel?,Un rascacielos,Un puente,Una torre,Un museo,Una torre,0,0,0,0
+¿Cuál es el continente más grande del mundo?,Asia,África,América,Europa,Asia,0,0,0,0
+¿En qué país se encuentra la Gran Muralla?,China,Japón,Corea del Sur,Vietnam,China,0,0,0,0
+¿Quién fue el primer presidente de los Estados Unidos?,George Washington,Abraham Lincoln,Thomas Jefferson,Franklin D. Roosevelt,George Washington,0,0,0,0
+¿Qué tipo de animal es una ballena?,Pez,Mamífero,Reptil,Aves, Mamífero,0,0,0,0
+¿En qué año llegó Cristóbal Colón a América?,1492,1500,1480,1510,1492,0,0,0,0
+¿Cuál es el elemento químico con el símbolo O?,Oxígeno,Oro,Ozono,Ósmio,Oxígeno,0,0,0,0
+¿Quién escribió "Cien años de soledad"?,Pablo Neruda,Gabriel García Márquez,Juan Rulfo,Jorge Luis Borges,Gabriel García Márquez,0,0,0,0
+¿De qué país es originario el tango?,Argentina,Brasil,Uruguay,Chile,Argentina,0,0,0,0
+¿En qué ciudad se encuentra el Coliseo?,Roma,París,Barcelona,Atenas,Roma,0,0,0,0
+¿Qué gas constituye la mayor parte de la atmósfera terrestre?,Oxígeno,Carbono,Nitrógeno,Hidrógeno,Nitrógeno,0,0,0,0
+¿Quién fue el creador de la teoría de la relatividad?,Isaac Newton,Albert Einstein,Nikola Tesla,Galileo Galilei,Albert Einstein,0,0,0,0
+¿Qué continente tiene más países?,Asia,África,Europa,América,África,0,0,0,0
+¿Quién es el autor de "Don Quijote de la Mancha"?,Lope de Vega,Federico García Lorca,Miguel de Cervantes,Juan Boscán,Miguel de Cervantes,0,0,0,0
+¿En qué país se encuentra la Pirámide de Giza?,Egipto,México,India,Sudán,Egipto,0,0,0,0
+¿Quién fue el primer hombre en pisar la luna?,Yuri Gagarin,Neil Armstrong,Buzz Aldrin,Michael Collins,Neil Armstrong,0,0,0,0
+¿Cuál es el animal más grande del mundo?,Ballena Azul,Elefante,Oso Polar,Cachalote,Ballena Azul,0,0,0,0
+¿En qué océano se encuentra la Gran Barrera de Coral?,Atlántico,Índico,Pacífico,Ártico,Pacífico,0,0,0,0
+¿Quién es conocido como el "Padre de la Historia"?,Heródoto,Homero,Sócrates,Platón,Heródoto,0,0,0,0
+¿Qué país es famoso por la celebración de la Oktoberfest?,Francia,España,Alemania,Italia,Alemania,0,0,0,0
+¿En qué año terminó la Segunda Guerra Mundial?,1945,1939,1950,1942,1945,0,0,0,0
+¿Cuál es el país más grande del mundo?,Canadá,China,Rusia,Estados Unidos,Rusia,0,0,0,0
+¿Quién inventó el teléfono?,Thomas Edison,Alexander Graham Bell,Nikola Tesla,Marie Curie,Alexander Graham Bell,0,0,0,0
+¿Quién pintó la Capilla Sixtina?,Miguel Ángel,Leonardo da Vinci,Pablo Picasso,Salvador Dalí,Miguel Ángel,0,0,0,0
+¿Dónde se encuentran las ruinas de Machu Picchu?,Perú,Bolivia,Chile,Colombia,Perú,0,0,0,0
+¿Quién descubrió América?,Cristóbal Colón,Fernão de Magalhães,Marco Polo,Hernán Cortés,Cristóbal Colón,0,0,0,0
+¿Qué instrumento musical tiene 88 teclas?,Piano,Guitarra,Bajo,Vibráfono,Piano,0,0,0,0
+¿Cuál es la moneda oficial de Japón?,Yuan,Won,Euro,Yen,Yen,0,0,0,0
+¿Quién fue el primer hombre en volar al espacio?,Yuri Gagarin,Nikola Tesla,Neil Armstrong,Valentina Tereshkova,Yuri Gagarin,0,0,0,0
+¿Dónde se encuentra la ciudad de Petra?,Jordania,Siria,Egipto,Líbano,Jordania,0,0,0,0
+¿Cuál es el símbolo químico del hidrógeno?,H,O,N,C,H,0,0,0,0
+¿En qué año se fundó la ciudad de Roma?,753 a.C.,500 a.C.,100 a.C.,500 d.C.,753 a.C.,0,0,0,0
+¿Qué es la famosa Torre Pisa?,Una torre de reloj,Un edificio administrativo,Una torre inclinada,Un puente,Una torre inclinada,0,0,0,0
+¿Quién escribió "El origen de las especies"?,Charles Darwin,Lamarck,Nikola Tesla,Gregor Mendel,Charles Darwin,0,0,0,0
+¿En qué ciudad se encuentra el Museo del Prado?,Madrid,Barcelona,Sevilla,Valencia,Madrid,0,0,0,0
+¿En qué país se originó el sushi?,China,Corea del Sur,Japón,India,Japón,0,0,0,0
+¿Cuál es la capital de Australia?,Sídney,Melbourne,Canberra,Brisbane,Canberra,0,0,0,0
+¿En qué año comenzó la Revolución Francesa?,1789,1776,1792,1804,1789,0,0,0,0
+¿Quién pintó "La última cena"?,Leonardo da Vinci,Michelangelo,Rafael,Donatello,Leonardo da Vinci,0,0,0,0
+¿Cuál es el océano más grande del mundo?,Atlántico,Ártico,Índico,Pacífico,Pacífico,0,0,0,0
+¿Quién fue el inventor de la bombilla eléctrica?,Nikola Tesla,Thomas Edison,Alexander Graham Bell,Mikhail Kalashnikov,Thomas Edison,0,0,0,0
+¿Dónde se encuentra el Taj Mahal?,India,Pakistán,Bangladesh,Irak,India,0,0,0,0
+¿Quién fue el líder de la independencia de Argentina?,Simón Bolívar,José de San Martín,Francisco de Miranda,Manuel Belgrano,José de San Martín,0,0,0,0
