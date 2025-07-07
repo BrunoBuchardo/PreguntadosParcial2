@@ -1,10 +1,6 @@
-"""Módulo para el estado principal del juego en Preguntados.
-
-Este módulo gestiona la interfaz y la lógica del estado de juego, incluyendo la visualización de preguntas,
+"""Este módulo gestiona la interfaz y la lógica del estado de juego, incluyendo la visualización de preguntas,
 opciones de respuesta, comodines, puntaje, vidas, tiempo restante, y la animación Toasty que aparece tras
-una respuesta correcta o incorrecta.
-"""
-
+una respuesta correcta o incorrecta."""
 from Constantes import *
 from Funciones import *
 

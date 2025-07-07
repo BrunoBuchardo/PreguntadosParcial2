@@ -1,9 +1,5 @@
-"""Módulo para la pantalla de Game Over en Preguntados.
-
-Este módulo gestiona la interfaz de la pantalla de Game Over, mostrando un mensaje de fin de juego
-y permitiendo al usuario continuar hacia la pantalla de ingreso de nombre.
-"""
-
+"""Este módulo gestiona la interfaz de la pantalla de Game Over, mostrando un mensaje de fin de juego
+y permitiendo al usuario continuar hacia la pantalla de ingreso de nombre."""
 from Constantes import *
 from Funciones import *
 

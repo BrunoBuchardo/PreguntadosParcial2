@@ -1,6 +1,6 @@
 [
     {
-        "nombre": "Gohan",
+        "nombre": "Luis",
         "puntaje": 90,
         "fecha": "04-07-2025"
     },
@@ -42,6 +42,16 @@
     {
         "nombre": "tito",
         "puntaje": 25,
+        "fecha": "06-07-2025"
+    },
+    {
+        "nombre": "vovo",
+        "puntaje": -5,
+        "fecha": "06-07-2025"
+    },
+    {
+        "nombre": "emilio",
+        "puntaje": 65,
         "fecha": "06-07-2025"
     }
 ]

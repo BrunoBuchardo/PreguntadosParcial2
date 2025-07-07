@@ -1,9 +1,5 @@
-"""Módulo para la pantalla de fin de juego en Preguntados.
-
-Este módulo gestiona la interfaz de fin de juego, permitiendo al usuario ingresar su nombre para guardar
-el resultado de la partida y reiniciar el juego.
-"""
-
+"""Este módulo gestiona la interfaz de fin de juego, permitiendo al usuario ingresar su nombre para guardar
+el resultado de la partida y reiniciar el juego."""
 from Constantes import *
 from Funciones import *
 

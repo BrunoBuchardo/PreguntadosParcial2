@@ -1,9 +1,5 @@
-"""Módulo para la pantalla de inicio del juego en Preguntados.
-
-Este módulo gestiona la pantalla de inicio con una cuenta regresiva antes de comenzar el juego,
-inicializando las variables del juego y mostrando una animación de fondo.
-"""
-
+"""Este módulo gestiona la pantalla de inicio con una cuenta regresiva antes de comenzar el juego,
+inicializando las variables del juego y mostrando una animación de fondo."""
 from Constantes import *
 from Funciones import *
 

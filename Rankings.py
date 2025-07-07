@@ -1,9 +1,5 @@
-"""Módulo para la pantalla de rankings en Preguntados.
-
-Este módulo gestiona la interfaz de la pantalla de puntajes altos, mostrando los 10 mejores resultados
-guardados en el archivo partidas.json.
-"""
-
+""" Este módulo gestiona la interfaz de la pantalla de puntajes altos, mostrando los 10 mejores resultados
+guardados en el archivo partidas.json."""
 from Constantes import *
 from Funciones import *
 
@@ -26,7 +22,7 @@ def mostrar_puntajes(pantalla, eventos, datos_juego, fuente, fuente_game_over):
     fondo_puntajes.set_alpha(200)
     fondo_puntajes.fill(AMARILLO)
     pantalla.blit(fondo_puntajes, (50, 50))
-    puntajes_altos = cargar_puntajes()
+    puntajes_altos = cargar_rankings()
     for i, entrada in enumerate(puntajes_altos):
         texto = f"{i+1}. {entrada['nombre']} - {entrada['puntaje']} ({entrada['fecha']})"
         pantalla.blit(fuente.render(texto, True, NEGRO), (50, 50 + i * 40))

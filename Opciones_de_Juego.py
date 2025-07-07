@@ -1,16 +1,12 @@
-"""Módulo para la pantalla de configuración de dificultad en Preguntados.
-
-Este módulo gestiona la interfaz de selección de dificultad, mostrando los parámetros de la dificultad
+"""Este módulo gestiona la interfaz de selección de dificultad, mostrando los parámetros de la dificultad
 seleccionada (puntos, vidas, tiempo por pregunta) y permitiendo al usuario cambiar entre las opciones
-de dificultad (Fácil, Medio, Difícil).
-"""
-
+de dificultad (Fácil, Medio, Difícil)."""
 from Constantes import *
 from Funciones import *
 
-def mostrar_config_juego(pantalla, eventos, datos_juego, fuente, fuente_game_over):
+def mostrar_opciones_de_juego(pantalla, eventos, datos_juego, fuente, fuente_game_over):
     """
-    Muestra la pantalla de configuración de juego (dificultad).
+    Muestra la pantalla de Opciones de Juego.
     
     Args:
         pantalla: Superficie donde se dibuja.

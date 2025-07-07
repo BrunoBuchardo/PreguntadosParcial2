@@ -1,11 +1,5 @@
-"""Funciones de soporte para el juego Preguntados.
-
-Este módulo contiene funciones utilitarias para cargar preguntas, gestionar puntajes, dibujar botones,
-verificar respuestas, manejar comodines, controlar el volumen de la música y reiniciar el juego.
-Estas funciones son utilizadas por los módulos de los diferentes estados del juego para mantener
-la lógica centralizada y modular.
-"""
-
+"""Este módulo contiene funciones utilitarias para cargar preguntas, guardar rankings, dibujar botones,
+verificar respuestas, manejar comodines, controlar el volumen de la música y reiniciar el juego."""
 import pygame
 import csv
 import json
@@ -41,8 +35,8 @@ def guardar_resultado(nombre, puntaje):
     with open("partidas.json", "w") as archivo:
         json.dump(datos, archivo, indent=4)
 
-def cargar_puntajes():
-    """Carga los 10 mejores puntajes desde el archivo partidas.json.
+def cargar_rankings():
+    """Carga las 10 mejores puntuaciones desde el archivo partidas.json.
 
     Lee el archivo JSON, ordena los resultados por puntaje de mayor a menor y devuelve los 10 primeros.
 
@@ -82,14 +76,14 @@ def dibujar_boton(pantalla, fuente, texto, x, y, ancho, alto, color_inactivo, co
         pygame.time.wait(200)
         accion()
 
-def verificar_respuesta(opcion_seleccionada, datos_juego, incorrect_sound, correct_sound):
+def verificar_respuesta(opcion_seleccionada, datos_juego, incorrecto, correcto):
     """
     Verifica si la opción seleccionada es correcta y actualiza el estado del juego.
     
     Args:
         opcion_seleccionada: Opción elegida por el jugador.
         datos_juego: Diccionario con el estado del juego.
-        incorrect_sound, correct_sound: Sonidos para respuestas incorrectas/correctas.
+        incorrecto, correcto: Sonidos para respuestas incorrectas/correctas.
     
     Returns:
         dict: Estado actualizado del juego.
@@ -108,8 +102,8 @@ def verificar_respuesta(opcion_seleccionada, datos_juego, incorrect_sound, corre
         datos_juego["doble_chance_activo"] = False
         datos_juego["opciones_restantes"] = []
         mensaje_comodin = f"¡Correcto! +{puntos_ganados} puntos" + (" (X2 activado)" if datos_juego["x2_usado"] else "")
-        if correct_sound:
-            correct_sound.play()
+        if correcto:
+            correcto.play()
     else:
         if datos_juego["doble_chance_usado"] and not datos_juego["doble_chance_activo"]:
             datos_juego["doble_chance_activo"] = True
@@ -123,8 +117,8 @@ def verificar_respuesta(opcion_seleccionada, datos_juego, incorrect_sound, corre
             datos_juego["doble_chance_activo"] = False
             datos_juego["opciones_restantes"] = []
             mensaje_comodin = f"Incorrecto: {DIFICULTADES[datos_juego['dificultad_seleccionada']]['puntos_errores']} puntos, -1 vida"
-            if incorrect_sound:
-                incorrect_sound.play()
+            if incorrecto:
+                incorrecto.play()
     
     datos_juego["mensaje_comodin"] = mensaje_comodin
     return datos_juego

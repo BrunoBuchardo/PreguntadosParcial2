@@ -1,14 +1,7 @@
-"""Módulo principal para Preguntados.
-
-Este módulo inicializa el juego, carga recursos multimedia (imágenes, sonidos, GIFs), y ejecuta el bucle
-principal que delega el manejo de los estados a los módulos correspondientes (menú, juego, configuración, etc.).
-"""
+""" Archivo principal para ejecutar el juego 'Preguntados'.Este módulo inicializa Pygame, configura la ventana y llama a la función principal
+del juego, que gestiona el bucle principal y las distintas pantallas."""
 
 from Constantes import *
-# main.py
-"""
-Módulo principal ligero que inicia el juego Preguntados.
-"""
 import pygame
 from game_core import principal
 

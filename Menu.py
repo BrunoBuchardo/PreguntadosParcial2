@@ -1,9 +1,5 @@
-"""Módulo para el menú principal de Preguntados.
-
-Este módulo gestiona la interfaz del menú principal, mostrando botones interactivos para iniciar el juego,
-ver puntajes, configurar música, ajustar opciones de juego o salir.
-"""
-
+"""Este módulo gestiona la interfaz del menú principal, mostrando botones interactivos para iniciar el juego,
+ver rankings, configurar música, ajustar opciones de juego o salir."""
 from Constantes import *
 from Funciones import *
 
