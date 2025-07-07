@@ -110,8 +110,16 @@ def mostrar_juego(pantalla, eventos, datos_juego, fuente, fuente_game_over):
                               lambda: datos_juego.update(usar_doble_chance(datos_juego), mensaje_comodin_tiempo=pygame.time.get_ticks()))
                 idx += 1
             if not datos_juego["pasar_usado"]:
-                dibujar_boton(pantalla, fuente, "Pasar", base_x_comodin + idx * (ancho_boton + espacio), base_y_comodin, ancho_boton, 50, AMARILLO, ROJO, 
-                              lambda: datos_juego.update(usar_pasar(datos_juego), tiempo_inicio=pygame.time.get_ticks(), mensaje_comodin_tiempo=pygame.time.get_ticks()))
+                def accion_pasar():
+                    datos_juego.update(usar_pasar(datos_juego))
+                    datos_juego.update(tiempo_inicio=pygame.time.get_ticks(), mensaje_comodin_tiempo=pygame.time.get_ticks())
+    
+                dibujar_boton(
+                    pantalla, fuente, "Pasar", base_x_comodin + idx * (ancho_boton + espacio), base_y_comodin,
+                    ancho_boton, 50, AMARILLO, ROJO, accion_pasar
+                )
+
+
             
             fondo_stats = pygame.Surface((200, 100))
             fondo_stats.set_alpha(200)

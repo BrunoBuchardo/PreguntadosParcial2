@@ -200,6 +200,7 @@ def usar_pasar(datos_juego):
     if datos_juego["pregunta_actual"] in datos_juego["preguntas"]:
         datos_juego["preguntas"].remove(datos_juego["pregunta_actual"])
     datos_juego["pregunta_actual"] = None
+    datos_juego["pasar_usado"] = True  
     datos_juego["mensaje_comodin"] = "Pasar usado: Pregunta saltada"
     return datos_juego
 
